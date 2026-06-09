@@ -1,0 +1,12 @@
+{
+  "name": "unused-deps",
+  "version": "1.0.0",
+  "description": "Find unused npm dependencies — scans your source and flags packages you list but never import",
+  "main": "index.mjs",
+  "bin": { "unused-deps": "cli.mjs" },
+  "scripts": { "test": "node --test test.mjs" },
+  "keywords": ["unused", "dependencies", "npm", "audit", "cleanup"],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "repository": { "type": "git", "url": "https://github.com/sulthonzh/unused-deps" }
+}
