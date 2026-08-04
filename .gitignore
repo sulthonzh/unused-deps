@@ -31,3 +31,4 @@ Thumbs.db
 
 # package
 *.tgz
+build/
